@@ -127,7 +127,7 @@ class Blog:
         catNam=[]
         for cat in self.catgs:
             cats+=str(cat)+","
-        self.dbCon.execute("select category.categoryName, count(*) as freq from category_link inner join category on category_link.cat=category.idcategory where category.blog="+str(self.idC)+" group by category_link.cat;")
+        self.dbCon.execute("select category.categoryName, count(*) as freq, category.idcategory as catg from category_link inner join category on category_link.cat=category.idcategory where category.blog="+str(self.idC)+" group by category_link.cat;")
         for cN in self.dbCon:
             catNam.append(cN)
         self.dbCon.close()
