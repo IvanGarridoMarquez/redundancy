@@ -20,7 +20,7 @@ def pCond(interXY,x,y,n):
     pX=x/n
     pCondXY=pinterXY/pY
     pCondYX=pinterXY/pX
-    return pCondXY,pCondYX,pCondXY*pCondYX
+    return [pCondXY,pCondYX,pCondXY*pCondYX]
     
 
 #measure proposed
