@@ -45,6 +45,7 @@ for i in range(0,len(categs)):
         #Here get the size of the intersection ietj between i and j 
         ietj=curBlog.getIntersectionSizeBetweenCatACatB(categs[i][2],categs[j][2])
         pcondVal=pCond(int(ietj),int(categs[i][1]),int(categs[j][1]),N)
+        print pcondVal
         matMetric[x][y]=pcondVal[0]
         matMetric[y][x]=pcondVal[1]
         X=categs[i][2]
