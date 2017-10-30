@@ -1,0 +1,23 @@
+#!/bin/bash
+#python conditionalMetric.py bcommebon >> ../results/tables_csv/../results/tables_csv/bcommebon_redundancy.csv
+#python conditionalMetric.py beaualalouche >> ../results/tables_csv/beaualalouche_redundancy.csv
+#python conditionalMetric.py cleacuisine >> ../results/tables_csv/cleacuisine_redundancy.csv
+python conditionalMetric.py coupleofpixels >> ../results/tables_csv/coupleofpixels_redundancy.csv
+#python conditionalMetric.py desrecettesagogo >> ../results/tables_csv/desrecettesagogo_redundancy.csv
+#python conditionalMetric.py francoischarlet >> ../results/tables_csv/francoischarlet_redundancy.csv
+python conditionalMetric.py johncouscous >> ../results/tables_csv/johncouscous_redundancy.csv
+#python conditionalMetric.py journaldugamer >> ../results/tables_csv/journaldugamer_redundancy.csv
+python conditionalMetric.py julsa >> ../results/tables_csv/julsa_redundancy.csv
+python conditionalMetric.py jurilexblog >> ../results/tables_csv/jurilexblog_redundancy.csv
+#python conditionalMetric.py lagourmandiseselonangie >> ../results/tables_csv/lagourmandiseselonangie_redundancy.csv
+python conditionalMetric.py paralipomenes >> ../results/tables_csv/paralipomenes_redundancy.csv
+#python conditionalMetric.py pechedegourmand >> ../results/tables_csv/pechedegourmand_redundancy.csv
+python conditionalMetric.py philippebilger >> ../results/tables_csv/philippebilger_redundancy.csv
+python conditionalMetric.py roxarmy >> ../results/tables_csv/roxarmy_redundancy.csv
+#python conditionalMetric.py toutchilink >> ../results/tables_csv/toutchilink_redundancy.csv
+python conditionalMetric.py domotique34 >> ../results/tables_csv/domotique34_redundancy.csv
+python conditionalMetric.py maisonetdomotique >> ../results/tables_csv/maisonetdomotique_redundancy.csv
+#python conditionalMetric.py prendreuncafe >> ../results/tables_csv/prendreuncafe_redundancy.csv
+python conditionalMetric.py shots >> ../results/tables_csv/shots_redundancy.csv
+python conditionalMetric.py domadoo >> ../results/tables_csv/domadoo_redundancy.csv
+python conditionalMetric.py josdblog >> ../results/tables_csv/josdblog_redundancy.csv
